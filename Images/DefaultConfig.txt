@@ -1,24 +1,60 @@
-[Config Start]
-Male_base.png=(Male,Base,Male,Human)
-Male_beard_small.png=(Short Beard,Beard,Hair,Short,Brown)
-Male_beard_long.png=(Long Beard,Beard,Hair,Long,Brown)
+IMPORTANT: Make sure to include the equals sign like the sprites designated below, as this is what determines if text is ignored or interpreted as a sprite configuration.
+
+Example: (without equals sign)
+file.png(name,layer,type,material,variant)
+
+[Sprites]
+
+Male_base_fair.png=(Male Fair Skin,Base,Male,Fair)
+Male_base_pale.png=(Male Pale Skin,Base,Male,Pale)
+Male_base_medium.png=(Male Medium Skin,Base,Male,Medium)
+Male_base_deep.png=(Male Deep Skin,Base,Male,Deep)
+
+
+
+Male_hair_be_short.png=(Short Blonde Hair,Hair,Blonde,Short)
+Male_hair_be_braid.png=(Braided Blonde Hair,Hair,Blonde,Braided)
+
+Male_hair_bk_short.png=(Short Black Hair,Hair,Black,Short)
+Male_hair_bk_braid.png=(Braided Black Hair,Hair,Black,Braided)
+
+Male_hair_bn_short.png=(Short Brown Hair,Hair,Brown,Short)
+Male_hair_bn_braid.png=(Braided Brown Hair,Hair,Brown,Braided)
+
+Male_beard_brown_small.png=(Short Brown Beard,Beard,Brown,Short)
+Male_beard_brown_long.png=(Long Brown Beard,Beard,Brown,Long)
+Male_beard_brown_braid.png=(Braided Brown Beard,Beard,Brown,Braided)
+Male_beard_brown_mstache.png=(Brown Moustache,Beard,Brown,Moustache)
+
+Male_beard_black_short.png=(Short Black Beard,Beard,Black,Short)
+Male_beard_black_long.png=(Long Black Beard,Beard,Black,Long)
+Male_beard_black_braid.png=(Braided Black Beard,Beard,Black,Braided)
+Male_beard_black_mstache.png=(Black Moustache,Beard,Black,Moustache)
+
+Male_beard_blonde_braid.png=(Braided Blonde Beard,Beard,Blonde,Braided)
+Male_beard_blonde_mstache.png=(Blonde Moustache,Beard,Blonde,Moustache)
+
 Male_cap_l.png=(Leather Cap,Head,Cap,Leather)
 Male_cap_b.png=(Birch Cap,Head,Cap,Birch)
 Male_cap_fa.png=(Fur Cap With Rim,Head,Cap,Fur,With Rim)
 Male_cap_fb.png=(Fur Cap,Head,Cap,Fur,Brown)
+
 Male_coif.png=(Coif,Head,Coif,Wool,Light)
 Male_coif_mail.png=(Mail Coif,Head,Mail Coif,Mail,Short)
 Male_coif_mail_long.png=(Long Mail Coif,Head,Mail Coif,Mail,Long)
 Male_coif_long.png=(Long Coif,Head,Long Coif,Wool,Light)
 Male_coif_long_med.png=(Long Coif,Head,Long Coif,Wool,Medium)
 Male_coif_long_dark.png=(Long Coif,Head,Long Coif,Wool,Dark)
+
 Male_helm.png=(Iron Helm,Head,Helm,Iron)
 Male_helm_spectacle.png=(Iron Helm /w Spectacle,Head,Helm /w Spectacle,Iron)
+
 Male_hood_off.png=(Short Hood - Down,Head,Hood,Wool,Short Blue - Down)
 Male_hood_on.png=(Short Hood - Up,Head,Hood,Wool,Short Blue - Up)
 Male_hood_fur.png=(Fur Hood,Head,Hood,Fur)
 Male_longhood_on.png=(Long Hood - Up,Head,Hood,Wool,Dark Long - Up)
 Male_longhood_on_white.png=(Long White Hood - Up,Head,Hood,Wool,White Long - Up)
+
 Male_veil.png=(Veil,Head,Veil,Linen)
 Male_belt.png=(Leather Belt,Waist,Belt,Leather,Long End)
 Male_apron.png=(Leather Apron,Waist,Apron,Leather)
@@ -32,34 +68,45 @@ Male_undergarment_nettle.png=(Nettle Undergarments,Chest,Undergarment,Nettle)
 Male_shirt_long.png=(Longsleve Shirt,Chest,Shirt, long sleeves,Wool,Beige)
 Male_shirt_short.png=(Beige Shirt,Chest,Shirt,Wool,Beige)
 Male_shirt_short_green.png=(Green Shirt,Chest,Shirt,Wool,Green)
+
+Male_overcoat_wool.png=(White Woolen Overcoat,Chest,Overcoat,Wool,White)
 Male_overcoat_fur.png=(Brown Fur Overcoat,Chest,Overcoat,Fur,Brown)
 Male_overcoat_fur_dark.png=(Dark Brown Fur Overcoat,Chest,Overcoat,Fur,Dark Brown)
+
 Male_cloak_fur.png=(Fur Cloak,Chest,Cloak,Fur)
 Male_cloak_wool_white.png=(White Cloak,Chest,Cloak,Wool,White)
 Male_cloak_wool_green.png=(Green Cloak,Chest,Cloak,Wool,Green)
+
 Male_curiass_leather.png=(Leather Curiass,Chest,Curiass,Leather)
 Male_curiass_lamellar.png=(Lamellar Curiass,Chest,Curiass,Lamellar)
 Male_habergeon.png=(Habergeon,Chest,Habergeon,Mail)
 Male_hauberk.png=(Hauberk,Chest,Hauberk,Mail)
 Male_hauberk_lam.png=(Lamellar Hauberk,Chest,Hauberk,Lamellar)
 Male_hauberk_long.png=(Long Hauberk,Chest,Long Hauberk,Mail)
+
 Male_boots_l.png=(Boots,Feet,Boots,Leather)
 Male_footrags_wool.png=(Footrags,Feet,Footrags,Wool)
 Male_footrags_linen.png=(Footrags,Feet,Footrags,Linen)
 Male_footwear_fb.png=(Brown Fur Footwear,Feet,Footwear,Fur,Brown)
 Male_footwear_fr.png=(Red Fur Footwear,Feet,Footwear,Fur,Red)
 Male_shoes_birch.png=(Birch Shoes,Feet,Shoes,Birch)
+
 Male_armguards_l.png=(Leather Armguards,Arms,Forearm guards,Leather)
+
 Male_mittens.png=(Fur Mittens,Hands,Mittens,Fur)
 Male_mittens_wool.png=(Woolen Mittens,Hands,Mittens,Wool)
 Male_mittens_mail.png=(Mail Mittens,Hands,Mittens,Mail)
 Male_mittens_forearm.png=(Fur Mittens (Forearm),Hands,Mittens (+ forearm),Fur,Brown)
+
 Male_shield_wield_back.png=(Wielded Shield Back,Hands,Shield,Back,Wood)
 Male_shield_wield_front.png=(Wielded Shield Front,Hands,Shield,Front,Wood)
+Male_shield_wield_front_paint1.png=(Wielded Shield Front,Hands,Shield,Front,Paint 1)
+
 Male_leggins.png=(Wool Leggins,Legs,Leggins,Wool)
 Male_leggins_mail.png=(Mail Leggins,Legs,Leggins,Mail)
 Male_leggins_leather.png=(Leather Leggins,Legs,Leggins,Leather)
 Male_leggins_fur.png=(Fur Leggins,Legs,Leggins,Fur)
+
 Male_trousers_f.png=(Fur Trousers,Legs,Trousers,Fur,Brown)
 Male_trousers_darkgreen.png=(Dark Green Trousers,Legs,Trousers,Linen,Dark Green)
 Male_trousers_green.png=(Green Trousers,Legs,Trousers,Linen,Green)
@@ -68,9 +115,13 @@ Male_trousers_lightblue.png=(Light Blue Trousers,Legs,Trousers,Linen,Light Blue)
 Male_trousers_blue.png=(Blue Trousers,Legs,Trousers,Linen,Blue)
 Male_trousers_dark.png=(Dark Trousers,Legs,Trousers,Wool,Dark)
 Male_trousers_light.png=(Light Trousers,Legs,Trousers,Wool,Light)
+
 Male_kneecops.png=(Kneecops,Legs,Kneekops,Iron)
+
 Male_rerebraces.png=(Rerebraces,Arms,Rerebraces,Iron)
+
 Male_necklace_birch.png=(Birch Necklace,Base,Necklace,Birch)
+
 Female_hair_long.png=(Long Hair,Hair,Long,Red,Loose)
 Female_hair_braid.png=(Braid,Hair,Long,Red,Braid)
 Female_hair_braid_grey.png=(Braid,Hair,Long,Grey,Braid)
@@ -143,4 +194,3 @@ Female_trousers_lightblue.png=(Light Blue Trousers,Legs,Trousers,Linen,Light Blu
 Female_trousers_blue.png=(Blue Trousers,Legs,Trousers,Linen,Blue)
 Female_trousers_dark.png=(Dark Trousers,Legs,Trousers,Wool,Dark)
 Female_trousers_light.png=(Light Trousers,Legs,Trousers,Wool,Light)
-[Config End]
